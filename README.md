@@ -13,3 +13,5 @@ Exemplo:
 
 ![](https://i.imgur.com/JRiYnD7.png)
 
+
+O arquivo pin.html está com o código completo em si.
