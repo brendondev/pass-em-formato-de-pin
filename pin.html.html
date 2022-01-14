@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div class="container">
+        <div class="wrapper-container">
+          <p>
+            Digite o PIN
+          </p>
+          <div class="wrapper-pin">
+            <input id="n1" maxlength="1" type="text" class="pin" tabIndex="1" />
+            <input id="n2" maxlength="1" type="text" class="pin" tabIndex="2" />
+            <input id="n3" maxlength="1" type="text" class="pin" tabIndex="3" />
+            <input id="n4" maxlength="1" type="text" class="pin" tabIndex="4" />
+            <input id="n5" maxlength="1" type="text" class="pin" tabIndex="5" />
+            <input id="n6" maxlength="1" type="text" class="pin" tabIndex="6" />
+          </div>
+          <button>
+            Enviar
+          </button>
+        </div>
+      </div>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    .container {
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    height: 100vh;
+    color: #fff;
+    background: #12141d;
+    }
+
+    .wrapper-container {
+    background: #292b34;
+        width: 100%;
+        padding: 2em;
+    }
+
+    .wrapper-pin {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    }
+
+    .pin {
+    width: 33.66px;
+    min-height: 36px;
+    text-align: center;
+    outline: 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #666;
+    margin-right: 5px;
+    }
+
+    button {
+    margin-top: 2em;
+    background: #3c5ccf;
+    color: #fff;
+    padding: 10px;
+    width: 150px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 600;
+    }
+</style>
+
+
+</body>
+</html>
